@@ -13,7 +13,7 @@ public void draw()
 {   
 	//not needed for this assignment
 }  
-public boolean isPrime(double dNum)  
+public boolean isPrime(double hi)  
 {   
     for(int i = 2; i <= Math.sqrt(hi); i++) {
     if(hi % i == 0) {
